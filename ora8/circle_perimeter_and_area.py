@@ -1,9 +1,10 @@
-atmero = 24
-r = atmero/2
-PI = 3.1415
-
-perimeter = 2*r*PI
-print(perimeter)
-
-area = r**2 * PI
-print(area)
+"""
+A feladat a kör kerülete és területe
+"""
+diameter = 24  # cm
+radius = diameter / 2
+pi = 3.14
+circle_perimeter = 2 * radius * pi
+circle_area = radius ** 2 * pi
+print(circle_perimeter)
+print(circle_area)

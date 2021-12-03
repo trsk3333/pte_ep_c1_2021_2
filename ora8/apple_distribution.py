@@ -1,3 +1,6 @@
-count_of_apples = 124
-count_of_students = 34
-print("Egy diáknak ", count_of_apples // count_of_students, " db alma jut, és a tanárnőnél ", count_of_apples%count_of_students, " alma marad")
+all_apple_number = 124
+students_number = 34
+apple_per_students = all_apple_number // students_number
+apple_at_teacher = all_apple_number % students_number
+print("Alma tanulónként:", apple_per_students)
+print("Alma marad a tanárnpnél:", apple_at_teacher)
